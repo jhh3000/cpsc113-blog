@@ -1,27 +1,23 @@
 ---
-name: Windy emu
+name: throbbing-resonance
 app:
-  name: Snap Chat
-  url: http://snapchat.com
-  twitter_username: snapchat
-  repo: http://git.yale.edu/foo
-  tagline: Engagement metrics done right
+  name: Lectern
+  url: (currently in development)
+  twitter_username: (none) 
+  repo: https://github.com/jhh3000/cpsc113-project
+  tagline: Real-time student feedback for Professors
   value: |
-    For non-technical marketers
-    who struggle to find return on investment in social media
-    our product is a web-based analytics software that translates engagement metrics into actionable revenue metrics.
+    For university professors
+    who struggle to gauge the level of student comprehension in real time
+    our product is a web-based solution that allows students to provide mid-lecture feedback allowing professors to tailor their approach and improve learning outcomes
 members:
-  - first_name: Hannia
-    last_name: Zia
-    email: hannia.zia@yale.edu>
-  - first_name: Jason
-    last_name: Brooks
-    email: jason.brooks@yale.edu
-  - first_name: April
-    last_name: Koh
-    email: april.koh@yale.edu
-  - first_name: Woot
-    last_name: Hatch
-    email: david.hatch@yale.edu
+  - first_name: Jeff
+    last_name: Hu
+    email: jeff.hu@yale.edu>
+  - first_name: Michael
+    last_name: Van der Linden
+    email: michael.vanderlinden@yale.edu
+  - first_name: Trent
+    last_name: Tolley
+    email: trent.tolley@yale.edu
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

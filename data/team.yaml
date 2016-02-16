@@ -13,7 +13,7 @@ app:
 members:
   - first_name: Jeff
     last_name: Hu
-    email: jeff.hu@yale.edu>
+    email: jeff.hu@yale.edu
   - first_name: Michael
     last_name: Van der Linden
     email: michael.vanderlinden@yale.edu

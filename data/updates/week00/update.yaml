@@ -1,42 +1,52 @@
 ---
-title: A week of joys and opportunity
+title: Setting up shop
 summary: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
-  We were on [Hacker News](https://news.ycombinator.com/). Also,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.
+  We've put together a team, chosen an idea, and created this blog.
 news:
-  - title: Got our *first* customer!
+  - title: The Dream Team
     kind: joy
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
+      In a sign of divine favor, our randomly generated default name was "throbbing resonance." Brought to you by Jeff Hu, Trent Tolley, and Mikey Van der Linden.
+  - title: Heroku is a fickle bastard
     kind: struggle
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
+      Luckily Jeff "Mad-Eye" Hu was there to beat our blog into position.
+  - title: Infinite Value
     kind: learning
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+      We're figuring out what our app will do and who it will do it to. |
 
----
+      **Overview** |
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+      Lectern is a web service designed to give professors detailed data about student comprehension of their material. Students submit survey responses and numerical data about their level of familiarity with the material through a mobile interface, and professors can view the data at a customizable level of detail. Professors can poll the class at specific moments in lecture or send surveys home outside of class. They can also leave the system running during class to collect live, continuous data on how well students understand the presented information. |
+
+      Our customers are academic department heads who, at the recommendation of their professors, will purchase a semester's subscription to use the software in the professor's class. |
+
+      Professors are the key users and the market that must be won. From conversations with professors, we've learned that they want more information about how students feel in class. If students get lost in class, they won't tell the professor. Even if the professor senses that no one is getting it, it's difficult for them to identify exactly what students are struggling with. This lack of communication manifests itself in long-term resentment or apathy from students and unexpected negative reviews at the end of the semester for the professor. |
+
+      A software that facilitates communication between professors and students can solve this problem. To be pressure-free, the software must carry no implicit evaluation of either party by the other, but merely serve as a data-collection tool that benefits both. |
+
+      We will reach customers by conducting trial runs of the service this spring. If the app is successful, word may spread among professors. We will collect feedback from users, make improvements, and hopefully launch for real in the fall. |
+
+      This venture has very low overhead, so it should not require outside support. It can and will run for free, at least this spring. |
+
+      This is a low-risk venture. If nobody wants to use our service, we haven't lost any money. It could fail for a few reasons. Professors might be uncomfortable using an app that might expose weaknesses in their teaching and force them to improve. They might view it as a distraction for themselves or the students. It might turn out to be a minor convenience but not something worth the department spending money on. Perhaps students won't feel comfortable submitting information about their class comprehension, especially if they don't have server-side anonymity (if we use the yale CAS login, for example). |
+
+      These concerns are best addressed by talking to professors and students to figure out what problems they actually have and what services they would comfortably use. We have already talked with some professors who have validated our plan. We can make a protoype in Google Forms that students would use to submit responses at the end of class, and let our users try it out and provide some feedback. We cam also analyze similar services like Piazza and Kyle's Q&A board to find out which features work best in practice. |
+
+      To maximize value, we want to get this into the hands of professors in students. We should have an alpha version out ASAP and try it out in a few classrooms. Then, we need to keep updating based on the feedback from users. We don't want to build the whole thing in secret and then discover upon releasing that it's not what the users want. |
+
+      Some of the functionality and interface of the app is not determined yet, because we need to collect more data from our users about exactly what they want. However, the ideal user experience is as follows. |
+
+      As a student, I open the website on my phone in class. Underneath the "student login" header is a text field where I can enter a string that the teacher will announce to the class to enter that class session. Once I am in the session, my screen has a simple slider that I can drag up and down with my finger throughout class to indicate how comfortable I am with the material being taught. When class is over, I can simply close the tab. |
+
+      As a professor, I open the website on my computer in class. Underneath the "teacher login" header is a login button, which automatically redirects me through Yale CAS. I arrive at my "classes" page where I can start a new session for any of my classes. I should also be able to see data for each class from past sessions. When I start a session, the app gives me a string that I tell to the class. Through the class, I can see a histogram of students' data that updates live, as well as an advancing line graph of the class average understanding level. When the session is over, I click "end session" and the data is automatically stored for review later. I can then log out. |
+
+      There are many decisions yet to be made about the application architecture, but the most important is what kind of user data should be saved about students. Using a class string preserves total anonymity, but sacrifices some convenience and the benefits of student accounts for later features. We will definitely keep track of professor users in a server-side database, and each professor will be associated with one or more classes that record data about each session over a semester. We will need an asynchronous or periodic polling exchange between the server and the student users as the class progresses to collect their live data (similar to the chat app). Since we are focusing on mobile-first development, the application needs to be as light on the client as possible, in both functionality and interface. We want to use a minimal UI that looks good on mobile, as different from the cluttered mess of classesv2 or piazza as possible. We will manage our code on github, and initially test and deploy through Heroku. |
+
+      Stay tuned!
+
+
 
 These updates are written in
 [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).

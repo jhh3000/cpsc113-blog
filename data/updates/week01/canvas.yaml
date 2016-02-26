@@ -34,7 +34,7 @@ cost_structure: # ... etc
     description: |
       
 
-  - title: Clicker Hardware (40hrs * $65/hr = $10k/mo)
+  - title: Clicker Hardware (unknown)
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 3
     description: |

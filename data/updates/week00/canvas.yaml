@@ -14,7 +14,7 @@ problem:
       Teachers have a hard time telling if students are following the material.
 
   - title: Professors would like to increase the level of student comprehension
-    invalidated: true # whether this has been invalidated. Used to show change
+    invalidated: false # whether this has been invalidated. Used to show change
     confidence: 3
     description: |
       Do teachers care enough to use our product?

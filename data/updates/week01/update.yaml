@@ -1,80 +1,23 @@
 ---
-title: A week of despair and drudgery
+title: Validating Value
 summary: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
-  Also,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. We feel discouraged. Carry on!
+  Working through the lean startup canvas and figuring out which hypotheses we need to test.
 news:
-  - title: Got our first customer!
-    kind: joy
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
-    kind: struggle
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
+  - title: Brainstorming
     kind: learning
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+This week, we’ve started thinking about what hypotheses need to be validated. There are three critical assumptions that need to be tested:
 
-These updates are written in
-[Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+  * Students will submit feedback when they are confused.
+  * Professors will put the feedback to use improving their lectures.
+  * Administrators will feel the service is worth paying for.
 
-You can also use [Nunjucks](https://mozilla.github.io/nunjucks/templating.html)
-to do fancy things like. "Our team name is `{{data.team.name}}`". The content
-will be passed through Nunjucks first and then the Markdown will be rendered.
+All these problems connect to the larger issue of customer validation. Before building anything, we need to conduct many interviews with the two user groups (students and professors) and the customer group (administrators) to see if the value proposition is viable. We need to get inside the heads of each of these sets of people to unpack their values, goals, and problems. Professors are the key user base - if this product provides enough value to them, they have considerable leverage over both students and administrators to drive adoption.
 
-Paragraphs are separated by a blank line.
+The first step is to conduct interviews with representatives from all three groups. We plan to schedule 10 student interviews, 10 professor interviews, and 3 administrator interviews to begin collecting data. Do our users and customers exist, and do they have the pain we think they do? At this stage, we can also run some preliminary solution interviews that investigate what kinds of services and features work best for professors and students.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+If we get enough validation for our UVP from the interviews, we will run several MVP trials in classrooms. We will sit in on a class where students will use a basic one-button interface on a heroku site that will collect data on their understanding. We might not even display the data for the professor in this trial - we are only testing the first hypothesis. If that is validated, we will run subsequent trials that integrate the professor.
 
-  * this one
-  * that one
-  * the other one
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
-
-You can even write code! For example, some python
-```python
-x = 5
-for i in range(10):
-  print i
-```
-
-or some javascript
-
-```javascript
-var x = 'foo';
-while(true){
-  console.log('awesome');
-}
-```
+If we don’t get enough validation on campus, we might pivot to a K-12 classroom setting. We plan on conducting early interviews with high school teachers and students regardless to see if our product might be a better fit for that environment.

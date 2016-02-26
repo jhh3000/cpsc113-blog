@@ -8,8 +8,8 @@ app:
   tagline: Real-time student feedback for Professors
   value: |
     For university professors
-    who struggle to gauge the level of student comprehension in real time
-    our product is a web-based solution that allows students to provide mid-lecture feedback allowing professors to tailor their approach and improve learning outcomes
+    who struggle to gauge student comprehension in real time,
+    Lectern is a web app enabling professors to collect live data during class to fill gaps in student knowledge.
 members:
   - first_name: Jeff
     last_name: Hu

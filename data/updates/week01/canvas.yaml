@@ -1,41 +1,30 @@
 ---
 problem:
-  - title: Sharing lots of photos and videos is a time consuming
+  - title: Lectures often progress too fast or slow for some students
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+     Sometimes students are left behind because the class moves too quickly,
+     or bored because the teacher spends too long on a particular topic.
+     
+  - title: Professors have difficulty gauging student comprehension
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 5
     description: |
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      Teachers have a hard time telling if students are following the material.
 
-  - title: Parents have no free time
+  - title: Professors would like to increase the level of student comprehension
     invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 2
+    confidence: 3
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-  - title: Parents confused by technology
-    invalidated: true # whether this has been invalidated. Used to show change
-    confidence: 10
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      Do teachers care enough to use our product?
 
   - title: |
-     *Existing alternatives*: Flickr, SmugMug, MobileMe, Facebook
+     *Existing alternatives*: Some clicker solutions, and web solutions
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 7
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      Need to research more to figure out what our differentiating advantage is.
 
 cost_structure: # ... etc
 
@@ -43,78 +32,42 @@ cost_structure: # ... etc
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 8
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      
 
-  - title: People costs (40hrs * $65/hr = $10k/mo)
+  - title: Clicker Hardware (40hrs * $65/hr = $10k/mo)
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 3
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
+      We may use cheap clickers in our initial MVP. 
+      However, we would ideally like a web/mobile solution that doesn't require hardware
 
 solution: # ... etc
 
-  - title: Instant, no upload sharing
+  - title: Real-time student feedback on comprehension
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 2
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-
-  - title: iPhoto/folder integration
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 9
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-  - title: Better notification tools
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 1
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo conse quat.
 
 key_metrics:
-  - title: A - Sign up
-  - title: A - Created first gallery
-  - title: R - Shared an album and/or video
-  - title: R - invited family and friends
-  - title: R - Paid after trial
-
-
+  - title: A - Teacher affirming interest
+  - title: R - Students providing realtime responses
+  - title: R - Teacher finds student responses are useful
+  
 value_proposition:
-  - title: The fastest way to share your photos and videos
-  - title: |
-      *High level concept:* Photo and video sharing without the uploading
+  - title: The most unobtrusive way to get student feedback
+  - title: Optimize lectures to improve the classroom experience and learning outcomes
 
 unfair_advantage:
-  - title: community
+  - title: simple yet effective
 
 channels:
-  - title: Fiends
-  - title: Daycare
-  - title: Birthday parties
-  - title: AdWords
-  - title: Facebook
-  - title: Word of mouth
-
+  - title: local high schools for testing MVP
+  - title: direct marketing via phone
+  - title: direct marketing via phone
+  
 customer_segments:
-  - title: Parents (creators)
-  - title: Family and friends (viewers)
-  - title: |
-      *Early adopter*: Parents with young kids
+  - title: High school administrators
+  - title: University administrators (potentially)
+  - title: MIddle school administrators
+
 ---

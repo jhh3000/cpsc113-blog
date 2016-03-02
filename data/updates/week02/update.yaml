@@ -1,0 +1,19 @@
+---
+title: Potential Roadblocks
+summary: |
+  Trying to anticipate our problems
+news:
+  - title: Brainstorming
+    kind: learning
+    description: |
+---
+
+As we move into validation interviews and designing a MVP, we've been documenting possible pitfalls and how we might respond to them.
+
+  * What if professors don't feel comfortable using technology in the classroom to this degree?
+
+Our early adopters are relatively young, "hip" professors in technically-oriented fields who have been enthusiastic about the product. However, in order to win a wider market of less tech-savvy professors, we need the user interface to be as simple and intuitive as possible for the professor. Additionally, we need the student interface to be minimal enough that students can operate it on their desk without having to pick it up. This will reduce the professor's perceived distraction.
+
+  * What if students don't provide data through the app?
+
+We're working on different ways to stimulate student participation. One (unattractive) option is to rely on professors to periodically ask the class to submit some feedback at natural break points throughout class. This defeats the purpose of a live feedback model, however. A better option would be for a silent reminder to pop up every so often on the students' end prompting them to add data. Our goal is to make students feel empowered by the mere presence of the tool, motivating them not only to use it but also to participate directly in the lecture through traditional hand-raising and question-asking. If the data collection app goes unused because students are asking questions and engaging directly with the teacher, we call that a success.

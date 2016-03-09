@@ -1,0 +1,25 @@
+---
+title: Customer Validation and Acquistion + an MVP mockup
+summary: |
+  Talking to professors and going door-to-door
+news:
+  - title: Brainstorming
+    kind: learning
+    description: |
+---
+
+We've conducted a bunch of 1-on-1 interviews with professors. We want to know what their bigges problems are in the classroom environment. Professors consistently complained of overly large classes, disengaged students, and lectures where nobody absorbed a thing. Although some of them said they could generally tell if students were lost or disnergaged (one called it the "glazed doughnut" look) most said they would appreciate a service giving them hard data about who gets it.
+
+We still need to validate with students and administrators, but since professors are our core users (and may end up being our customers as well), validating with them has been our top priority. We feel there is officially enough indication of a market that we can move forward and start coding.
+
+To acquire customers, we plan to start with the "door-to-door" salesman approach. We will have individual meetings with professors we know, demo the product, sign them up for an email list and offer them a chance to try it out in their class for free. Later on, we will also reach out via email to colleagues of professors who are already users, and reference their peers for social confirmation. Ulitmately, our goal for this semester is to build a small but dedicated user base among Yale professors, some of whom will refer the service to others.
+
+Part of our acquistion involves a demo. In the next week or two after spring break, we will show professors a simple mockup image, invite them to be among the first users, and solicit feedback on what features they desire and how the design can be improved.
+
+Here is the mockup:
+
+![alt text](http://s15.postimg.org/ixco18off/student_interface_v1.jpg "Student Mockup")
+
+![alt text](http://s14.postimg.org/qt6i7oyxd/teacher_interface_v1.jpg "Professor Mockup")
+
+That's all for now!

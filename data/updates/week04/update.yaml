@@ -1,0 +1,11 @@
+---
+title: Time to build
+summary: |
+  It's time to build
+news:
+  - title: Building
+    kind: learning
+    description: |
+---
+
+We've done our customer validation. We've had our interviews. We have a clear idea of what we want our core product to do and a mockup for how it should look as a minimum viable product. We plan to test it out in classrooms and see how professors and students respond. With that information, we can improve it and pivot if necessary. All that's left is to code the damn thing.

@@ -15,7 +15,7 @@ news:
     kind: technical design
     description: |
       We had some debate about using something like google analytics as a technical MVP, however we are leaning towards moving forward with a Django PostgreSQL MVP because that is ultimately the stack we are most familiar with (and its appropriate for the task at hand), and we don’t have enough time to do a technical MVP with a technology stack that does not reflect where we want to be at the end of the course.
-  - title: How to keep students engage with the app
+  - title: How to keep students engaged with the app
     kind: Issue to resolve
     description: |
       One issue we have been discussing is how should lecturers incentivize students to use the app. One solution would be to encourage app participation to be reflected in the participation grade of a class. While this is largely out of our control, it could encourage active voting. We could design an algorithm that used the number of votes as a proxy for engagement (with some modifications), meanwhile maintaining student anonymity so as not to influence the votes themselves. |
@@ -33,7 +33,7 @@ Improving on the mock-up graphic from our previous blog post, we are considering
 
 We had some debate about using something like google analytics as a technical MVP, however we are leaning towards moving forward with a Django PostgreSQL MVP because that is ultimately the stack we are most familiar with (and its appropriate for the task at hand), and we don’t have enough time to do a technical MVP with a technology stack that does not reflect where we want to be at the end of the course.
 
-(4) Issue to resolve
+(4) Student-app engagement
 
 One issue we have been discussing is how should lecturers incentivize students to use the app. One solution would be to encourage app participation to be reflected in the participation grade of a class. While this is largely out of our control, it could encourage active voting. We could design an algorithm that used the number of votes as a proxy for engagement (with some modifications), meanwhile maintaining student anonymity so as not to influence the votes themselves. |
 

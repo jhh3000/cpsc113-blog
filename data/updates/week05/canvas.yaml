@@ -9,7 +9,7 @@ problem:
      
   - title: Professors have difficulty gauging student comprehension
     invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
+    confidence: 6
     description: |
       Teachers have a hard time telling if students are following the material.
 

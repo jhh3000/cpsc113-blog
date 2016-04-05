@@ -16,8 +16,24 @@ news:
     description: |
       We had some debate about using something like google analytics as a technical MVP, however we are leaning towards moving forward with a Django PostgreSQL MVP because that is ultimately the stack we are most familiar with (and its appropriate for the task at hand), and we don’t have enough time to do a technical MVP with a technology stack that does not reflect where we want to be at the end of the course.
   - title: How to keep students engage with the app
-    kind: Issue
+    kind: Issue to resolve
     description: |
       One issue we have been discussing is how should lecturers incentivize students to use the app. One solution would be to encourage app participation to be reflected in the participation grade of a class. While this is largely out of our control, it could encourage active voting. We could design an algorithm that used the number of votes as a proxy for engagement (with some modifications), meanwhile maintaining student anonymity so as not to influence the votes themselves. |
 ---
+
+(1) Student Interface
+
+On the student interface, we are considering changing the two stoplight buttons (“I get it”, “I don’t get it”) for a slider that still represents the basic binary indication of comprehension vs lack of comprehension, BUT allows the student to express some degree of nuance. One hypothesis we have about this change in interface is that it will subtly force the student to stay engaged. For example, if a student registers that he “gets it”, and he only has the original 2 options, there may be a tendency to disengage from the app, while maintaining this status. Allow for some nuance between to two polar extremes would force the student to reevaluate his level of comprehension as new topics emerge in the lecture. By structuring the student interface in this way, we could provide more granular detail to the lecturer (e.g. high comprehension but a decreasing trend), while still maintaining a minimalist interface.
+
+(2) Lecturer Interface
+
+Improving on the mock-up graphic from our previous blog post, we are considering changing the time series graph to only one line, which represents the average level of comprehension (y axis) plotted versus time (x axis). We hypothesize that time-weighted average (or exponentially weighted average), would be the most meaningful. This method would allow us to more heavily weight a recent vote, over a vote cast 20 minutes prior. Our rationale is that votes cast more recently are more interesting signals, and should be weighted more heavily.
+
+(3) MVP update
+
+We had some debate about using something like google analytics as a technical MVP, however we are leaning towards moving forward with a Django PostgreSQL MVP because that is ultimately the stack we are most familiar with (and its appropriate for the task at hand), and we don’t have enough time to do a technical MVP with a technology stack that does not reflect where we want to be at the end of the course.
+
+(4) Issue to resolve
+
+One issue we have been discussing is how should lecturers incentivize students to use the app. One solution would be to encourage app participation to be reflected in the participation grade of a class. While this is largely out of our control, it could encourage active voting. We could design an algorithm that used the number of votes as a proxy for engagement (with some modifications), meanwhile maintaining student anonymity so as not to influence the votes themselves. |
 

@@ -8,6 +8,14 @@ news:
     description: | 
 ---
 
-This week we started putting together our interface and backend. We have a teacher dashboard with a live updating graph, a student two-button interface, and a portal page where teachers can initialize sessions and students can join them. We reached out to several professors to arrange a pilot test, and we hope to try it out in a classroom next week. Along with finishing up the backend data manipulation, our next step is to build a pretty user interface. We are using bootstrap to quickly put together a clean, minimalist design. We made several sketches of the desired interface, which will be posted below shortly.
+This week we started putting together our interface and backend. We have a teacher dashboard with a live updating graph, a student two-button interface, and a portal page where teachers can initialize sessions and students can join them. We reached out to several professors to arrange a pilot test, and we hope to try it out in a classroom next week. Along with finishing up the backend data manipulation, our next step is to build a pretty user interface. We are using bootstrap to quickly put together a clean, minimalist design. We made several sketches of the desired interface, posted below.
 
 One design decision we iterated through was the type of input mechanism the student should use. We realized that a dynamic slider on a graduated vertical bar might be more effective than the buttons. It gives students the ability to provide more nuanced feedback, and also removes user uncertainty about how their data is being received if they tap the button several times or leave it idle for a while. However, our top priority right now is developing a product people can actually use before classes end for the semester, and we don't have time for the technically more difficult challenge of building a slider. For now, we are sticking with the button interface.
+
+Design sketches:
+
+![alt text](http://s21.postimg.org/y2gjmbu43/IMG_1344.jpg "Interface 1")
+
+![alt text](http://s24.postimg.org/ycc5tksb9/IMG_1345.jpg "Interface 2")
+
+![alt text](http://s21.postimg.org/aa78ass37/IMG_1346.jpg "Interface 3")

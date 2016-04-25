@@ -1,0 +1,73 @@
+---
+problem:
+  - title: Lectures often progress too fast or slow for some students
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+     Sometimes students are left behind because the class moves too quickly,
+     or bored because the teacher spends too long on a particular topic.
+     
+  - title: Professors have difficulty gauging student comprehension
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 6
+    description: |
+      Teachers have a hard time telling if students are following the material.
+
+  - title: Professors would like to increase the level of student comprehension
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 3
+    description: |
+      Do teachers care enough to use our product?
+
+  - title: |
+     *Existing alternatives*: Some clicker solutions, and web solutions
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+      Need to research more to figure out what our differentiating advantage is.
+
+cost_structure: # ... etc
+
+  - title: Hosting (currently $30 on Heroku)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      
+
+  - title: Clicker Hardware (unknown)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 3
+    description: |
+      We may use cheap clickers in our initial MVP. 
+      However, we would ideally like a web/mobile solution that doesn't require hardware
+
+solution: # ... etc
+
+  - title: Real-time student feedback on comprehension
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 2
+    description: |
+
+key_metrics:
+  - title: A - Teacher affirming interest
+  - title: R - Students providing realtime responses
+  - title: R - Teacher finds student responses are useful
+  
+value_proposition:
+  - title: The most unobtrusive way to get student feedback
+  - title: Optimize lectures to improve the classroom experience and learning outcomes
+
+unfair_advantage:
+  - title: simple yet effective
+
+channels:
+  - title: local high schools for testing MVP
+  - title: direct marketing via phone
+  - title: direct marketing via phone
+  
+customer_segments:
+  - title: High school administrators
+  - title: University administrators (potentially)
+  - title: MIddle school administrators
+
+---
